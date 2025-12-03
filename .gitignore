@@ -1,0 +1,7 @@
+.vscode
+
+*.dSYM
+*.obj
+solution
+sample_input.txt
+input.csv
