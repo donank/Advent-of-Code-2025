@@ -45,15 +45,13 @@ int main()
         {
             curr_pos = initial_pos + new_pos;
         }
-        
+
         if(curr_pos > 100)
         {
-                std::cout<<curr_pos<<std::endl;
                 curr_pos = curr_pos % 100;
                 extra_clicks += 1;
         } else if (curr_pos < 0 && initial_pos != 0)
         {
-                std::cout<<curr_pos<<std::endl;
                 curr_pos = curr_pos + 100;
                 extra_clicks += 1;
 
